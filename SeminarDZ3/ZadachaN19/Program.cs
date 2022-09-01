@@ -7,11 +7,70 @@
 // 23432 -> да
 
 Console.WriteLine("Введите  число");
-string str = Console.ReadLine();
-int length = str.Length;
+int num = Convert.ToInt32(Console.ReadLine());
+string num2 = Convert.ToString(num);
+ 
+ if(num>= 10000 && num<=100000)
+ {
+    if(num2[0] ==num2[4] && num2[1] ==num2[3])
+    {
+        Console.WriteLine("Является палиндромом");
+    }
+    else
+    {
+        Console.WriteLine("Не является палиндромом");
+    }
+ }
 
-for(int i = 0; i < length; i++)
-{
-    Console.WriteLine(str[length - i - 1]);
-    str == str2;
-}
+Console.WriteLine("Число не входит в промежуток");
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string str = Console.ReadLine();
+// int length = str.Length;
+// string str3 = str.Substring(0, str.Length/2 +1);
+// int length2 = str3.Length;
+
+
+// if(str3 != str)
+// {
+       
+//     for(int i = 0; i < length/2; i++)
+//         {
+//             Console.Write(str[length - 1- i]);
+//         }
+     
+//      for(int d =0; d<length2/2; d++)
+//         {
+//             Console.Write(str3[length2-1-d]);
+//         }
+
+//      Console.Write("  Число не палиндром");
+//     }
+//  else
+//         {
+//             Console.WriteLine("Число палиндром");
+//         }  
+     
+ 
+
