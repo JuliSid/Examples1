@@ -5,22 +5,16 @@
 // 2, 4 -> 16
 
 
-Console.WriteLine("Введите число A ");
+Console.WriteLine("Введите число  ");
 int numA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число B ");
+Console.WriteLine("Введите степень  ");
 int numB = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ваше число в степени = " + GetPOW(numA,numB));
 
 
-Console.WriteLine("A в степени B = " + GetPOW(num));
+double GetPOW(int number, int number2)
+ {
+    double prod = (Math.Pow(number,number2));
+    return prod;
+ }
 
-
-int GetPOW( int number)
-{
-int b = 1;
-            for(int i=1;i<=n;i++)
-            {
-                b *= a;
-            }
-    }
-    return ;
-}
