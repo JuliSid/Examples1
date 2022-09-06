@@ -16,13 +16,10 @@ for(int i = 0; i < size; i++)
 Console.WriteLine("[{0}]", String.Join(", ", Array));
 
 int Count = 0;
-for(int i = 0; i <size; i++)
+for(int i = 1; i <size; i=i+2)
 {
-    if(Array[i]%2 != 0) 
-    {
     Count = Count + Array[i];
     
-    }
  
 }
 
